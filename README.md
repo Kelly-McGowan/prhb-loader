@@ -1,6 +1,6 @@
 ## deprecated deprecated deprecated deprecated
 
-# PornHub Downloader
+# PRNHub Downloader
 
 [![GitHub Issues Open](https://github-basic-badges.herokuapp.com/issues/mariosemes/PornHub-downloader-python.svg)]()
 
