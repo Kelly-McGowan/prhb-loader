@@ -1,7 +1,5 @@
 #!/usr/bin/env python
-from functions import init
-print("Compiling modules, wait")
-init()
+
 from function import *
 def main():
 
