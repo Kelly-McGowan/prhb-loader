@@ -9,14 +9,11 @@ Check what version of python you have: python --version <br />
 Recommended & tested usage is with python3. <br />
 Also, check if you have pip3 installed (apt install python3-pip). <br />
 
-```bash
-1. $ apt install python3
-2. $ apt install python3-pip
-3. $ wget https://github.com/mariosemes/PornHub-downloader-python/archive/master.zip
-4. $ unzip master.zip
-5. $ cd PornHub-downloader-python-master
-6. $ pip3 install -r requirements.txt
-7. $ python3 phdler.py
+```batch
+ $ git clone https://github.com/Kelly-McGowan/prhb-loader/
+ $ cd prhb-loader
+ $ pip install -r requirements.txt
+ $ python phdler.py
 ```
 It will ask you for your download folder PATH. Please enter your full path without the last backslash. <br />
 Like this: /home/username/media/phmedia <br />
@@ -29,11 +26,11 @@ On first run, phdler will create a database.db which will be used later for ever
 +-------------------+---------+------------------------------------------------------+
 | Tool              | command | item                                                 |
 +-------------------+---------+------------------------------------------------------+
-| python3 phdler.py | start   |                                                      |
-| python3 phdler.py | custom  | url | batch                                          |
-| python3 phdler.py | add     | model | pornstar | channel | user | playlist | batch |
-| python3 phdler.py | list    | model | pornstar | channel | user | playlist | all   |
-| python3 phdler.py | delete  | model | pornstar | channel | user | playlist         |
+| python phdler.py | start   |                                                      |
+| python phdler.py | custom  | url | batch                                          |
+| python phdler.py | add     | model | pornstar | channel | user | playlist | batch |
+| python phdler.py | list    | model | pornstar | channel | user | playlist | all   |
+| python phdler.py | delete  | model | pornstar | channel | user | playlist         |
 +-------------------+---------+------------------------------------------------------+
 ```
 
@@ -46,56 +43,56 @@ python3 phdler.py start
 
 ## CUSTOM
 ```bash
-python3 phdler.py custom https://www.pornhub.com/view_video.php?viewkey=ph5d69a2093729e
+python phdler.py custom https://www.pornhub.com/view_video.php?viewkey=ph5d69a2093729e
 or
-python3 phdler.py custom batch
+python phdler.py custom batch
 ```
 The batch option will ask you for the full path of your .txt file where you can import multiple URLs at once. <br />
 Take care that every single URL in the .txt file is in his own row.
 
 ## ADD
 ```bash
-python3 phdler.py add https://www.pornhub.com/model/luxurygirl
+python phdler.py add https://www.pornhub.com/model/luxurygirl
 or
-python3 phdler.py add https://www.pornhub.com/pornstar/leolulu
+python phdler.py add https://www.pornhub.com/pornstar/leolulu
 or
-python3 phdler.py add https://www.pornhub.com/channels/mia-khalifa
+python phdler.py add https://www.pornhub.com/channels/mia-khalifa
 or
-python3 phdler.py add https://www.pornhub.com/users/lasse98
+python phdler.py add https://www.pornhub.com/users/lasse98
 or
-python3 phdler.py add https://www.pornhub.com/playlist/30012401
+python phdler.py add https://www.pornhub.com/playlist/30012401
 or
-python3 phdler.py add batch
+python phdler.py add batch
 ```
 The batch option will ask you for the full path of your .txt file where you can import multiple URLs at once. <br />
 Take care that every single URL in the .txt file is in his own row.
 
 ## LIST
 ```bash
-python3 phdler.py list model
+python phdler.py list model
 or
-python3 phdler.py list pornstar
+python phdler.py list pornstar
 or
-python3 phdler.py list channels
+python phdler.py list channels
 or
-python3 phdler.py list users
+python phdler.py list users
 or
-python3 phdler.py list playlist
+python phdler.py list playlist
 or
-python3 phdler.py list all
+python phdler.py list all
 ```
 
 ## DELETE
 ```bash
-python3 phdler.py delete model
+python phdler.py delete model
 or
-python3 phdler.py delete pornstar
+python phdler.py delete pornstar
 or
-python3 phdler.py delete channels
+python phdler.py delete channels
 or
-python3 phdler.py delete users
+python phdler.py delete users
 or
-python3 phdler.py delete playlist
+python phdler.py delete playlist
 ```
 The option DELETE will list the selected item type, list them from the database and give you an option to enter the item ID of which one you want to be deleted.
 
