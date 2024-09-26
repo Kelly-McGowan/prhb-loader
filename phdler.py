@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-from functions import *
+from functions import init
 print("Compiling modules, wait")
 function.init()
+from function import *
 def main():
 
     check_for_database()
