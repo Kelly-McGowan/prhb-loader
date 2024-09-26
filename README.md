@@ -1,6 +1,6 @@
 ## deprecated deprecated deprecated deprecated
 
-# PRNHub Downloader
+# PRNHub Downloader Windows
 
 
 # Installation
