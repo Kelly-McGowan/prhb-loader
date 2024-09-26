@@ -6,9 +6,7 @@
 # Installation
 
 Check what version of python you have: python --version <br />
-Recommended & tested usage is with python3. <br />
-Also, check if you have pip3 installed (apt install python3-pip). <br />
-
+Or 
 ```batch
  $ git clone https://github.com/Kelly-McGowan/prhb-loader/
  $ cd prhb-loader
